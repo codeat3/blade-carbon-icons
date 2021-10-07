@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## 2.0.0 (2021-06-23)
+## 2.0.0 (2021-10-07)
 - added auto update/generation github workflow
 - few filename structure changed a bit - hence upgrading the version to 2.0
 
