@@ -2,6 +2,10 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 2.0.0 (2021-06-23)
+- added auto update/generation github workflow
+- few filename structure changed a bit - hence upgrading the version to 2.0
+
 ## 1.0.0 (2021-06-23)
 Initial release.
 Synced with the latest commit [Carbon Icons - v10.37.1](https://github.com/carbon-design-system/carbon/releases/tag/v10.37.1)
