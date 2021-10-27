@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-icons/compare/2.1.0...main)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.1.0...main)
 
 ## 2.1.0 (2021-10-11)
 - Synced with the latest commit [Carbon Icons - v10.45.0](https://github.com/carbon-design-system/carbon/releases/tag/v10.45.0)
