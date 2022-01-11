@@ -50,19 +50,19 @@ php artisan vendor:publish --tag=blade-carbon-icons-config
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-carbon-sigma-32/>
+<x-carbon-sigma/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-carbon-sigma-32 class="w-6 h-6 text-gray-500"/>
+<x-carbon-sigma class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-carbon-sigma-32 style="color: #555"/>
+<x-carbon-sigma style="color: #555"/>
 ```
 
 ### Raw SVG Icons

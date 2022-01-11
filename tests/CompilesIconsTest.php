@@ -14,11 +14,11 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_compiles_a_single_anonymous_component()
     {
-        $result = svg('carbon-sigma-32')->toHtml();
+        $result = svg('carbon-sigma')->toHtml();
 
         // Note: the empty class here seems to be a Blade components bug.
         $expected = <<<'SVG'
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><title>sigma</title><polygon fill="currentColor" points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect data-name="&lt;Transparent Rectangle&gt;" fill="none" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><polygon points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" style="fill: none"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -27,9 +27,9 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_classes_to_icons()
     {
-        $result = svg('carbon-sigma-32', 'w-6 h-6 text-gray-500')->toHtml();
+        $result = svg('carbon-sigma', 'w-6 h-6 text-gray-500')->toHtml();
         $expected = <<<'SVG'
-            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><title>sigma</title><polygon fill="currentColor" points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect data-name="&lt;Transparent Rectangle&gt;" fill="none" /></svg>
+            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><polygon points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" style="fill: none"/></svg>
             SVG;
         $this->assertSame($expected, $result);
     }
@@ -37,11 +37,11 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_styles_to_icons()
     {
-        $result = svg('carbon-sigma-32', ['style' => 'color: #555'])->toHtml();
+        $result = svg('carbon-sigma', ['style' => 'color: #555'])->toHtml();
 
 
         $expected = <<<'SVG'
-            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><title>sigma</title><polygon fill="currentColor" points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect data-name="&lt;Transparent Rectangle&gt;" fill="none" /></svg>
+            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><polygon points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" style="fill: none"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -52,10 +52,10 @@ class CompilesIconsTest extends TestCase
     {
         Config::set('blade-carbon-icons.class', 'awesome');
 
-        $result = svg('carbon-sigma-32')->toHtml();
+        $result = svg('carbon-sigma')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><title>sigma</title><polygon fill="currentColor" points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect data-name="&lt;Transparent Rectangle&gt;" fill="none" /></svg>
+            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><polygon points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" style="fill: none"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -67,10 +67,10 @@ class CompilesIconsTest extends TestCase
     {
         Config::set('blade-carbon-icons.class', 'awesome');
 
-        $result = svg('carbon-sigma-32', 'w-6 h-6')->toHtml();
+        $result = svg('carbon-sigma', 'w-6 h-6')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><title>sigma</title><polygon fill="currentColor" points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect data-name="&lt;Transparent Rectangle&gt;" fill="none" /></svg>
+            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><defs></defs><polygon points="24 5 7 5 7 7.414 15.586 16 7 24.586 7 27 24 27 24 25 9.414 25 18.414 16 9.414 7 24 7 24 5"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" style="fill: none"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
