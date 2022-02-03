@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.2.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.3.0...HEAD)
+
+## [2.3.0](https://github.com/codeat3/blade-carbon-icons/compare/2.2.0...2.3.0) - 2022-02-03
+
+## Updates
+
+- Added support for Laravel 9 by @swapnilsarwe in https://github.com/codeat3/blade-carbon-icons/pull/58
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.2.0...2.3.0
 
 ## [2.2.0](https://github.com/codeat3/blade-carbon-icons/compare/2.1.0...2.2.0) - 2022-01-03
 
