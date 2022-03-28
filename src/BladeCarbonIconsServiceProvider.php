@@ -17,24 +17,24 @@ final class BladeCarbonIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-carbon-icons', []);
 
-            $factory->add('carbon-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('carbon-icons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-carbon-icons.php', 'blade-carbon-icons');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-carbon-icons.php', 'blade-carbon-icons');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-carbon-icons'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-carbon-icons'),
             ], 'blade-carbon-icons');
 
             $this->publishes([
-                __DIR__.'/../config/blade-carbon-icons.php' => $this->app->configPath('blade-carbon-icons.php'),
+                __DIR__ . '/../config/blade-carbon-icons.php' => $this->app->configPath('blade-carbon-icons.php'),
             ], 'blade-carbon-icons-config');
         }
     }
