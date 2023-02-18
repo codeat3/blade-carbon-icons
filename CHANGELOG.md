@@ -2,7 +2,19 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.10.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.11.0...HEAD)
+
+## [2.11.0](https://github.com/codeat3/blade-carbon-icons/compare/2.10.0...2.11.0) - 2023-02-18
+
+### What's Changed
+
+- Laravel 10 Support by @inmanturbo in https://github.com/codeat3/blade-carbon-icons/pull/111
+
+### New Contributors
+
+- @inmanturbo made their first contribution in https://github.com/codeat3/blade-carbon-icons/pull/111
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.10.0...2.11.0
 
 ## [2.10.0](https://github.com/codeat3/blade-carbon-icons/compare/2.9.0...2.10.0) - 2023-01-09
 
