@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.11.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.12.0...HEAD)
+
+## [2.12.0](https://github.com/codeat3/blade-carbon-icons/compare/2.11.0...2.12.0) - 2023-02-27
+
+### What's Changed
+
+- Updates the auto update script + new icons addition
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.11.0...2.12.0
 
 ## [2.11.0](https://github.com/codeat3/blade-carbon-icons/compare/2.10.0...2.11.0) - 2023-02-18
 
