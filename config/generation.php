@@ -12,7 +12,18 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
         ->convertStyleToInline()
         ->optimize()
         ->postOptimizationAsString(function ($svgLine) {
-            return str_replace('fill:#000000', 'fill:currentColor', $svgLine);
+            return str_replace([
+                'fill:#040602',
+                'fill: #1d1d1d',
+                'fill:#000000',
+                'fill: #1c1c1c',
+                'fill: #000000',
+                'fill: #272425',
+                'fill: #241f20',
+                'fill:#231F20',
+                'fill: #171717',
+                'fill: #2c2c2b',
+            ], 'fill:currentColor', $svgLine);
         })
         ->save();
 };
@@ -20,10 +31,10 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
 return [
     [
         // Define a source directory for the sets like a node_modules/ or vendor/ directory...
-        'source' => __DIR__.'/../dist/packages/icons/src/svg/32',
+        'source' => __DIR__ . '/../dist/packages/icons/src/svg/32',
 
         // Define a destination directory for your icons. The below is a good default...
-        'destination' => __DIR__.'/../resources/svg',
+        'destination' => __DIR__ . '/../resources/svg',
 
         // Enable "safe" mode which will prevent deletion of old icons...
         'safe' => false,
