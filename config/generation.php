@@ -12,7 +12,8 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
         ->convertStyleToInline()
         ->optimize()
         ->postOptimizationAsString(function ($svgLine) {
-            return str_replace('fill:#000000', 'fill:currentColor', $svgLine);
+            $svgLine = str_replace('fill:#000000', 'fill:currentColor', $svgLine);
+            return str_replace('fill: #2c2c2b', 'fill:currentColor', $svgLine);
         })
         ->save();
 };
