@@ -13,6 +13,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet, SplFi
         ->optimize()
         ->postOptimizationAsString(function ($svgLine) {
             return str_replace([
+                'fill: #090909',
                 'fill:#040602',
                 'fill: #1d1d1d',
                 'fill:#000000',
