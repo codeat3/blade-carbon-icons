@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.12.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.12.1...HEAD)
+
+## [2.12.1](https://github.com/codeat3/blade-carbon-icons/compare/2.12.0...2.12.1) - 2023-03-10
+
+### What's Changed
+
+- Fill attribute fix by @swapnilsarwe in https://github.com/codeat3/blade-carbon-icons/pull/114
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.12.0...2.12.1
 
 ## [2.12.0](https://github.com/codeat3/blade-carbon-icons/compare/2.11.0...2.12.0) - 2023-02-27
 
