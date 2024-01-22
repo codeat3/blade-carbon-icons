@@ -2,7 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.17.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.18.2...HEAD)
+
+## [2.18.2](https://github.com/codeat3/blade-carbon-icons/compare/2.17.2...2.18.2) - 2024-01-22
+
+### What's Changed
+
+* synced with the latest released tag [v11.48.0](https://github.com/carbon-design-system/carbon/releases/tag/v11.48.0)
+* chore: update icons with the latest commit [be888a8](https://github.com/carbon-design-system/carbon/commit/be888a850730d9658decaf1336f4b3175eb4d817) by @github-actions in https://github.com/codeat3/blade-carbon-icons/pull/161
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.17.2...2.18.2
 
 ## [2.17.2](https://github.com/codeat3/blade-carbon-icons/compare/2.16.2...2.17.2) - 2023-11-21
 
