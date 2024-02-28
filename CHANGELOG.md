@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.21.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.22.0...HEAD)
+
+## [2.22.0](https://github.com/codeat3/blade-carbon-icons/compare/2.21.0...2.22.0) - 2024-02-28
+
+### What Changed:
+
+* deleted the unwanted folder - bug fix
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.21.0...2.22.0
 
 ## [2.21.0](https://github.com/codeat3/blade-carbon-icons/compare/2.20.0...2.21.0) - 2024-02-28
 
