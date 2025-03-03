@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.32.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.33.0...HEAD)
+
+## [2.33.0](https://github.com/codeat3/blade-carbon-icons/compare/2.32.0...2.33.0) - 2025-02-25
+
+### What's Changed
+
+* laravel 12 support added by @swapnilsarwe in https://github.com/codeat3/blade-carbon-icons/pull/221
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.32.0...2.33.0
 
 ## [2.32.0](https://github.com/codeat3/blade-carbon-icons/compare/2.31.0...2.32.0) - 2025-01-20
 
