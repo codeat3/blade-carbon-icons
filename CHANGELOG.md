@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.38.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-carbon-icons/compare/2.39.0...HEAD)
+
+## [2.39.0](https://github.com/codeat3/blade-carbon-icons/compare/2.38.0...2.39.0) - 2026-03-21
+
+### What's Changed
+
+* laravel 13 compatibility by @swapnilsarwe in https://github.com/codeat3/blade-carbon-icons/pull/278
+
+**Full Changelog**: https://github.com/codeat3/blade-carbon-icons/compare/2.38.0...2.39.0
 
 ## [2.38.0](https://github.com/codeat3/blade-carbon-icons/compare/2.37.0...2.38.0) - 2025-12-15
 
